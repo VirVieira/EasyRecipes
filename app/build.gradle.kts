@@ -6,8 +6,8 @@ plugins {
 }
 
 android {
-    namespace = "com.devspace.myapplication"
-    compileSdk = 34
+    namespace = "com.devs pace.myapplication"
+    compileSdk = 35
 
     buildFeatures {
         buildConfig = true
@@ -29,7 +29,7 @@ android {
         buildConfigField(
             type = "String",
             name = "API_KEY",
-            value = apiKey
+            value = "apiKey"
         )
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
